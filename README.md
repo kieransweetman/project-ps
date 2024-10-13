@@ -7,10 +7,13 @@
 
 ## Dev setup
 - [ ] Jest for testing
-- [ ] ESLint and Prettier setup
+- [x] ESLint and Prettier setup
 - [ ] CI/CD pipeline configuration
 
 ## UI
+
+ - [x] Basic Mantine setup completed
+  - [ ] Create `AppShell` with basic navigation items
 
  - [ ] [Setup Mantine](https://mantine.dev/guides/next/#templates), VsCode [config](https://mantine.dev/getting-started/#set-up-vs-code), Mantine [core concepts](https://mantine.dev/getting-started/#learn)
 
@@ -22,8 +25,8 @@
 
 ## Features
 
-- [ ] User authentication and authorization
-  - [ ] setup clerk
+- [x] User authentication
+  - [x] setup clerk
 - [ ] Tournament creation and management
   - [ ] Create tournament
   - [ ] Edit tournament details
