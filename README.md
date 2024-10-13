@@ -2,8 +2,8 @@
 
 ## Basics
 
- - [ ] Basic auth setup (`./env`)
- - [ ] Database setup (`./start-database.sh`)
+ - [x] Basic auth setup (`./env`)
+ - ~~[ ] Database setup (`./start-database.sh`)~~
 
 ## Dev setup
 - [ ] Jest for testing
@@ -23,6 +23,7 @@
 ## Features
 
 - [ ] User authentication and authorization
+  - [ ] setup clerk
 - [ ] Tournament creation and management
   - [ ] Create tournament
   - [ ] Edit tournament details
