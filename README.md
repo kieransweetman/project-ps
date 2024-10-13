@@ -1,29 +1,47 @@
-# Create T3 App
+# TODO
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Basics
 
-## What's next? How do I make an app with this?
+ - [ ] Basic auth setup (`./env`)
+ - [ ] Database setup (`./start-database.sh`)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Dev setup
+- [ ] Jest for testing
+- [ ] ESLint and Prettier setup
+- [ ] CI/CD pipeline configuration
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## UI
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+ - [ ] [Setup Mantine](https://mantine.dev/guides/next/#templates), VsCode [config](https://mantine.dev/getting-started/#set-up-vs-code), Mantine [core concepts](https://mantine.dev/getting-started/#learn)
 
-## Learn More
+ - [ ] configure design system 
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+ - [ ] Implement user registration and login forms
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+ - [ ] Create dashboard for tournament overview
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Features
 
-## How do I deploy this?
+- [ ] User authentication and authorization
+- [ ] Tournament creation and management
+  - [ ] Create tournament
+  - [ ] Edit tournament details
+  - [ ] Delete tournament
+- [ ] Team management
+  - [ ] Add team
+  - [ ] Edit team details
+  - [ ] Remove team
+- [ ] Match scheduling
+  - [ ] Schedule matches
+  - [ ] Update match results
+- [ ] Leaderboard and statistics
+  - [ ] Display leaderboard
+  - [ ] Show team and player statistics
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+## Testing
+
+- [ ] Unit tests for all components
+- [ ] Integration tests for major workflows
+- [ ] End-to-end tests
+
