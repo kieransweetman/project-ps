@@ -15,8 +15,6 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.2",
-    "@mantine/core": "^7.13.2",
-    "@mantine/hooks": "^7.13.2",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tabler/icons-react": "^3.19.0",
     "@vercel/postgres": "^0.10.0",

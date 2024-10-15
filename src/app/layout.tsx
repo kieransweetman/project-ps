@@ -5,8 +5,6 @@ import { type Metadata } from "next";
 import { ClerkProvider, SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
 import '@mantine/core/styles.css';
-import { AppShell, ColorSchemeScript, MantineProvider, Burger } from '@mantine/core';
-import { PressStartShell } from "~/_components/PressStartShell";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -21,17 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <head>
-        <ColorSchemeScript />
       </head>
       <ClerkProvider>
-        <MantineProvider>
-
-          <body>
-            <PressStartShell >
-              {children}
-            </PressStartShell >
-          </body>
-        </MantineProvider>
+        <body>
+          {children}
+        </body>
       </ClerkProvider>
     </html>
   );
