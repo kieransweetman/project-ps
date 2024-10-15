@@ -4,7 +4,6 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import { ClerkProvider, SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
-import '@mantine/core/styles.css';
 
 export const metadata: Metadata = {
   title: "Create T3 App",
